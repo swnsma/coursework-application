@@ -1,0 +1,18 @@
+{
+    "name": "al.kravchuk/coursework-5.2-application",
+    "authors": [
+        {
+            "name": "al.kravchuk",
+            "email": "al.kravchuk@ism-ukraine.com"
+        }
+    ],
+    "require": {
+        "silex/silex": "1.2.*",
+        "facebook/graph-sdk": "^5.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Coursework\\Chat\\": "src/"
+        }
+    }
+}
